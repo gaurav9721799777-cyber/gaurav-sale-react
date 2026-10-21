@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html { scroll-behavior: smooth; }
+  body { margin: 0; font-family: 'DM Sans', sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+  button, input, textarea { font: inherit; }
+  *, *::before, *::after { box-sizing: border-box; }
+}
+
+.infinite-scroll-trigger { min-height: 28px; padding: 8px 0; color: #778196; font-size: 12px; text-align: center; }
